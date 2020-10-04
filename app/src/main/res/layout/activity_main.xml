@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/miActionbar"
+        layout="@layout/navbar"></include>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMascotas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/miActionbar2"></androidx.recyclerview.widget.RecyclerView>
+
+    <include
+        android:id="@+id/floating_action_button"
+        layout="@layout/floating_action_button">
+    </include>
+</RelativeLayout>

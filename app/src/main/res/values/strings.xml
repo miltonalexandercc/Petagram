@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="img_nav">Icono de petagram</string>
+    <string name="img_card_mascota">Imagen de la mascota</string>
+
+    <string name="raiting">raiting</string>
+    <string name="nombre">nombre</string>
+
+    <string name="key_mascota_favorita">MASCOTA</string>
+
+
+</resources>
