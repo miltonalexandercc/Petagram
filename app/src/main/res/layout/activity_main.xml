@@ -14,7 +14,7 @@
         android:id="@+id/rvMascotas"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/miActionbar2"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_below="@+id/miActionbar"></androidx.recyclerview.widget.RecyclerView>
 
     <include
         android:id="@+id/floating_action_button"
