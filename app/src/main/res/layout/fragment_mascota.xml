@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MascotasFavoritas">
+    tools:context=".fragment.MascotaFragment">
 
-    <include
-        android:id="@+id/miActionbar"
-        layout="@layout/new_appbar"></include>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvMascotasFavoritas"
+        android:id="@+id/mascotasGrid"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/miActionbar"
         android:layout_margin="8dp"></androidx.recyclerview.widget.RecyclerView>
 
-</RelativeLayout>
+</GridLayout>

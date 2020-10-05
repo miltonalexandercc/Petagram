@@ -8,8 +8,6 @@
     android:elevation="@dimen/nav_elevation"
     android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-    app:subtitleTextColor="@color/textColor"
-    app:titleTextColor="@color/textColor"
     android:gravity="right">
 
 
@@ -23,7 +21,6 @@
         android:src="@drawable/ic_heart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/textColor"></ImageView>
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
 
 </androidx.appcompat.widget.Toolbar>

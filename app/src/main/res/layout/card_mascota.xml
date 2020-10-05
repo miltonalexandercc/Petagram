@@ -20,7 +20,7 @@
             <ImageView
                 android:id="@+id/foto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginBottom="8dp"
                 android:contentDescription="@string/img_card_mascota"
                 android:src="@drawable/dog"></ImageView>
@@ -43,7 +43,6 @@
                     android:id="@+id/nombre"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/nombre"
                     android:textSize="@dimen/nav_text_size"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/posicion"
@@ -57,7 +56,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="20dp"
                     android:layout_marginRight="20dp"
-                    android:text="@string/raiting"
                     android:textSize="@dimen/nav_text_size"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/imgIconoHuesoAmarillo"

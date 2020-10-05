@@ -8,5 +8,11 @@
 
     <string name="key_mascota_favorita">MASCOTA</string>
 
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="label_nombre">Nombre</string>
+    <string name="label_email">Email</string>
+    <string name="label_descripcion">Descripcion</string>
+    <string name="label_title_form">Comentario</string>
 
 </resources>

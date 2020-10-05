@@ -1,18 +1,18 @@
 package com.example.petagram;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Build;
 import android.os.Bundle;
+
+import com.example.petagram.adapter.MascotaAdaptador;
+import com.example.petagram.pojo.Mascota;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.List;
 
 public class MascotasFavoritas extends AppCompatActivity {
     private ArrayList<Mascota> mascotasFavoritas;
@@ -23,7 +23,7 @@ public class MascotasFavoritas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mascotas_favoritas);
 
-        Toolbar actionBar = (Toolbar) findViewById(R.id.miActionbar);
+        Toolbar actionBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(actionBar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 

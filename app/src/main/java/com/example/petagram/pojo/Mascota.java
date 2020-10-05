@@ -1,4 +1,4 @@
-package com.example.petagram;
+package com.example.petagram.pojo;
 
 import java.io.Serializable;
 

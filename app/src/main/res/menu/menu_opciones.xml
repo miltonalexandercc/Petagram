@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ic_favoritos"
+        android:icon="@drawable/ic_heart"
+        android:orderInCategory="102"
+        android:title="Refresh"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/mContacto"
+        android:orderInCategory="100"
+        android:title="Contacto"></item>
+    <item
+        android:id="@+id/mAcerca"
+        android:orderInCategory="100"
+        android:title="Acerca de"></item>
+
+</menu>
